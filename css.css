@@ -1,0 +1,416 @@
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E6E6FA;
+	max-width: 1366px;
+}
+
+
+footer {
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	left:0;
+	background-color: #A9A9A9;
+	text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 100px;
+	position: relative;
+	top: 0px;
+	height: 0px;
+    margin: 0px;
+	float: left;
+}
+	
+.druhy_ramcek {
+	float: center;
+	text-indent: -999px;
+	background-color: #9fb4c6;
+	height: 80px;
+	clear: none;
+}	
+	
+.topnav {
+	overflow: hidden;
+	background-color: #4c8181;
+}
+
+	
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.topnav a:hover {
+	background-color: #6faaaa;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #6faaaa;
+	color: black;
+}
+
+ /* Domovská stránka */
+
+#vitajte{
+	background-color: #E6E6FA;
+	position: relative;
+	top: -30px;
+	display: inline;
+	padding: 0px;
+	font-size: 40px;
+	text-align: center;
+}
+	
+
+#animaciaCSS1 {
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    -webkit-animation: mysecond 5s 2; 
+    -webkit-animation-direction: alternate; 
+    animation: mysecond 5s 2;
+    animation-direction: alternative;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mysecond {
+    0%	{background: blue; left: 450px; top: 280px;}
+    25%  {background: green; left: 865px; top: 280px;}
+    50%  {background: brown; left: 865px; top: 590px;}
+    75%  {background: red; left: 450px; top: 590px;}
+    100% {background: green; left: 450px; top: 280px;}
+}
+
+#prvygif {
+	float: right;
+	position: relative;
+	top: -42px; 
+	left: -480px;
+}
+
+.predna_strana{
+	float: left;
+	position: relative;
+	top:-40px;
+	margin-top: 0px;
+	margin-left: 100 px;
+	left: 50px;
+}
+
+img.animated-gif{
+  
+	width: 400px; 
+	height: auto;
+}
+
+/* Základné parametre */
+#hlavny_text_2{
+	width:23%;
+	float:left;
+	margin-left: 10px;
+	line-height:150%;
+	margin-bottom: 50px;
+}
+
+#suhrnne_informacie{
+	float: left;
+	width: 76%;
+	position: relative;
+	top:72px;
+	left: 0px;
+}
+
+#suhrnne_informacie_aj{
+	float: left;
+	width: 76%;
+	position: relative;
+	top:72px;
+	left: 0px;
+}
+
+#suhrnne_informacie_2 {
+	position: relative;
+	top: 105px; 
+	left: 0px;
+	width: 76%;
+}
+
+#suhrnne_informacie_2_aj {
+	position: relative;
+	top: 90px; 
+	left: 0px;
+	width: 76%;
+}
+	
+#displej{
+	float: left;
+	width: 76%;
+	position: relative;
+	top:183px;
+	left: 0px; 
+	line-height:150%;
+}
+
+#displej_aj{
+	float: left;
+	width: 76%;
+	position: relative;
+	top:148px;
+	left: 0px; 
+	line-height:150%;
+}
+
+#dalsie_funkcie{
+	float: left;
+	width: 76%;
+	position: relative; 
+	top:415px;
+	left: 0px
+}
+
+#dalsie_funkcie_aj{
+	float: left;
+	width: 76%;
+	position: relative; 
+	top:400px;
+	left: 0px
+}
+
+#dalsie_fukncie_2{
+	position: relative;
+	top: 440px;
+	left: 0px;
+	width: 76%;
+}
+
+#dalsie_fukncie_2_aj{
+	position: relative;
+	top: 430px;
+	left: 0px;
+	width: 76%;
+}
+
+/* Hardvér */
+#hlavny_text{
+	margin-left: 10px;
+	width:21,5%;
+	float:left;
+	margin-bottom: 10px;
+}
+
+.hardver1{
+	width: 78%;
+	float:right;
+	text-align:left;
+	position: relative;
+	top:100px;
+	
+	line-height: 200%;
+}
+
+.datove_funkcie{
+	width: 78%;
+	float:right;
+	text-align:left;
+	position: relative;
+	top: 216px;
+	line-height: 200%;
+}	
+
+/* Fotoaparát */
+
+#fotak_text{
+	float: left;
+	width:32%;
+	margin-left: 10px;
+}
+
+.fotak{
+	float:right;
+	width:67%;
+	position: relative;
+	top: 10px;
+}
+
+/* Výhody/nevýhody */
+
+#nevyhody {
+	float:right;
+	width: 49%;
+	text-align:left;
+	line-height: 150%;
+}
+
+#vyhody {
+	float:left;
+	width:50%;
+	text-align:left;
+	margin-left: 10px;
+	line-height: 150%;
+}
+
+.krizik{
+	left: 1160px;
+	top: 250px;
+    position: absolute;
+}
+
+.vyhody_obrazok{
+	left: 300px;
+	top: 250px;
+    position: absolute;
+}
+
+.komentare{
+	left: 0px;
+	top: 50px;
+    position: relative;
+}
+
+/* Výbava */
+
+#Vybava{
+	margin-left: 10px;
+}
+
+.krabica{
+	float: left;
+	position: absolute;
+	top: 180px; 
+	left: 600px;
+
+}
+
+.sluchatka{
+	float: middle;
+	position: absolute; 
+	top: 180px;
+	left: 900px;
+
+}
+
+.karta{
+	float:right;
+	position: absolute;
+	top: 180px;
+	left: 300px; 
+
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animácia */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.3); /* 130% zoom */
+}
+
+@keyframes flickerAnimation { 
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+    opacity:1;  
+    animation: flickerAnimation 6s infinite;
+}
+
+
+
+#tabulka1, th, td {
+    border: 1px solid black;
+	text-align:center;
+}
+
+
+
+/* Vonkajšia konštrukcia */
+
+#vonkajsia_konstrukcia{
+	margin-left: 10px;
+}
+
+
+
+#tabulka2, th, td{
+	    border: 1px dotted black;
+		margin-left: 10px;
+}
+
+
+.zvonenia{
+	position: absolute; 
+	top: 520px;
+	left: 40px;
+}
+
+.zvuky{
+	position: absolute;
+	top: 610px;
+	left: 50px;
+	margin-bottom: 40px;
+}
+
+.menuet{
+	position: absolute;
+	top: 570px;
+	left: 170px;
+}
+
+.forest_day{
+	position: absolute;
+	top: 570px; 
+	left: 480px;
+}
+
+.hangouts{
+	position: absolute;
+	top: 570px; 
+	left: 780px;
+}
+
+#BeznePouzivanie {
+	height: 350px;
+	left: 60%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);	
+}
+
+#video2{
+	height: 350px;
+	left: 80%;
+    position: absolute;
+    top: 33%;
+}
+
+/* Neobsahuje/nepodporuje */
+
+#neobsahuje{
+	margin-left: 10px;
+}
+
+.druhy_gif{
+	position: absolute;
+	top: 250px;
+	left: 450px;
+}
+
+.kontakt {
+margin-left: 1000px;
+margin-top: -100px;
+
+}
